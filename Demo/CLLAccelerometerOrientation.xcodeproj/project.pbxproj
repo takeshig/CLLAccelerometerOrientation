@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3909965516463BB000B77D23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3909965416463BB000B77D23 /* UIKit.framework */; };
+		3909965716463BB000B77D23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3909965616463BB000B77D23 /* Foundation.framework */; };
+		3909965916463BB000B77D23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3909965816463BB000B77D23 /* CoreGraphics.framework */; };
+		3909965F16463BB000B77D23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3909965D16463BB000B77D23 /* InfoPlist.strings */; };
+		3909966116463BB000B77D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909966016463BB000B77D23 /* main.m */; };
+		3909966516463BB000B77D23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909966416463BB000B77D23 /* AppDelegate.m */; };
+		3909966716463BB000B77D23 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3909966616463BB000B77D23 /* Default.png */; };
+		3909966916463BB000B77D23 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3909966816463BB000B77D23 /* Default@2x.png */; };
+		3909966B16463BB000B77D23 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3909966A16463BB000B77D23 /* Default-568h@2x.png */; };
+		3909966E16463BB000B77D23 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909966D16463BB000B77D23 /* RootViewController.m */; };
+		3909967716463BB100B77D23 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3909967516463BB100B77D23 /* MainStoryboard.storyboard */; };
+		39B4E5F01646446A008046A1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B4E5EF1646446A008046A1 /* CoreMotion.framework */; };
+		39CAA0101646557F001E9DFB /* CLLAccelerometerOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CAA00F1646557F001E9DFB /* CLLAccelerometerOrientation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3909965016463BB000B77D23 /* CLLAccelerometerOrientation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLLAccelerometerOrientation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3909965416463BB000B77D23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3909965616463BB000B77D23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3909965816463BB000B77D23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3909965C16463BB000B77D23 /* CLLAccelerometerOrientation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CLLAccelerometerOrientation-Info.plist"; sourceTree = "<group>"; };
+		3909965E16463BB000B77D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3909966016463BB000B77D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3909966216463BB000B77D23 /* CLLAccelerometerOrientation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLLAccelerometerOrientation-Prefix.pch"; sourceTree = "<group>"; };
+		3909966316463BB000B77D23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3909966416463BB000B77D23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3909966616463BB000B77D23 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3909966816463BB000B77D23 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3909966A16463BB000B77D23 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3909966C16463BB000B77D23 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3909966D16463BB000B77D23 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3909967616463BB100B77D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		39B4E5EF1646446A008046A1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		39CAA00E1646557F001E9DFB /* CLLAccelerometerOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLLAccelerometerOrientation.h; path = ../CLLAccelerometerOrientation.h; sourceTree = "<group>"; };
+		39CAA00F1646557F001E9DFB /* CLLAccelerometerOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLLAccelerometerOrientation.m; path = ../CLLAccelerometerOrientation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3909964D16463BB000B77D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B4E5F01646446A008046A1 /* CoreMotion.framework in Frameworks */,
+				3909965516463BB000B77D23 /* UIKit.framework in Frameworks */,
+				3909965716463BB000B77D23 /* Foundation.framework in Frameworks */,
+				3909965916463BB000B77D23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3909964516463BB000B77D23 = {
+			isa = PBXGroup;
+			children = (
+				39B4E5EF1646446A008046A1 /* CoreMotion.framework */,
+				39CAA00E1646557F001E9DFB /* CLLAccelerometerOrientation.h */,
+				39CAA00F1646557F001E9DFB /* CLLAccelerometerOrientation.m */,
+				3909965A16463BB000B77D23 /* CLLAccelerometerOrientation */,
+				3909965316463BB000B77D23 /* Frameworks */,
+				3909965116463BB000B77D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3909965116463BB000B77D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3909965016463BB000B77D23 /* CLLAccelerometerOrientation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3909965316463BB000B77D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3909965416463BB000B77D23 /* UIKit.framework */,
+				3909965616463BB000B77D23 /* Foundation.framework */,
+				3909965816463BB000B77D23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3909965A16463BB000B77D23 /* CLLAccelerometerOrientation */ = {
+			isa = PBXGroup;
+			children = (
+				3909966316463BB000B77D23 /* AppDelegate.h */,
+				3909966416463BB000B77D23 /* AppDelegate.m */,
+				3909966C16463BB000B77D23 /* RootViewController.h */,
+				3909966D16463BB000B77D23 /* RootViewController.m */,
+				3909967516463BB100B77D23 /* MainStoryboard.storyboard */,
+				3909965B16463BB000B77D23 /* Supporting Files */,
+			);
+			path = CLLAccelerometerOrientation;
+			sourceTree = "<group>";
+		};
+		3909965B16463BB000B77D23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3909965C16463BB000B77D23 /* CLLAccelerometerOrientation-Info.plist */,
+				3909965D16463BB000B77D23 /* InfoPlist.strings */,
+				3909966016463BB000B77D23 /* main.m */,
+				3909966216463BB000B77D23 /* CLLAccelerometerOrientation-Prefix.pch */,
+				3909966616463BB000B77D23 /* Default.png */,
+				3909966816463BB000B77D23 /* Default@2x.png */,
+				3909966A16463BB000B77D23 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3909964F16463BB000B77D23 /* CLLAccelerometerOrientation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3909967A16463BB100B77D23 /* Build configuration list for PBXNativeTarget "CLLAccelerometerOrientation" */;
+			buildPhases = (
+				3909964C16463BB000B77D23 /* Sources */,
+				3909964D16463BB000B77D23 /* Frameworks */,
+				3909964E16463BB000B77D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLLAccelerometerOrientation;
+			productName = CLLAccelerometerOrientation;
+			productReference = 3909965016463BB000B77D23 /* CLLAccelerometerOrientation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3909964716463BB000B77D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Shigeyuki Takeuchi";
+			};
+			buildConfigurationList = 3909964A16463BB000B77D23 /* Build configuration list for PBXProject "CLLAccelerometerOrientation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3909964516463BB000B77D23;
+			productRefGroup = 3909965116463BB000B77D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3909964F16463BB000B77D23 /* CLLAccelerometerOrientation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3909964E16463BB000B77D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3909965F16463BB000B77D23 /* InfoPlist.strings in Resources */,
+				3909966716463BB000B77D23 /* Default.png in Resources */,
+				3909966916463BB000B77D23 /* Default@2x.png in Resources */,
+				3909966B16463BB000B77D23 /* Default-568h@2x.png in Resources */,
+				3909967716463BB100B77D23 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3909964C16463BB000B77D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3909966116463BB000B77D23 /* main.m in Sources */,
+				3909966516463BB000B77D23 /* AppDelegate.m in Sources */,
+				3909966E16463BB000B77D23 /* RootViewController.m in Sources */,
+				39CAA0101646557F001E9DFB /* CLLAccelerometerOrientation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3909965D16463BB000B77D23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3909965E16463BB000B77D23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3909967516463BB100B77D23 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3909967616463BB100B77D23 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3909967816463BB100B77D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3909967916463BB100B77D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3909967B16463BB100B77D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLLAccelerometerOrientation/CLLAccelerometerOrientation-Prefix.pch";
+				INFOPLIST_FILE = "CLLAccelerometerOrientation/CLLAccelerometerOrientation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3909967C16463BB100B77D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLLAccelerometerOrientation/CLLAccelerometerOrientation-Prefix.pch";
+				INFOPLIST_FILE = "CLLAccelerometerOrientation/CLLAccelerometerOrientation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3909964A16463BB000B77D23 /* Build configuration list for PBXProject "CLLAccelerometerOrientation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3909967816463BB100B77D23 /* Debug */,
+				3909967916463BB100B77D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3909967A16463BB100B77D23 /* Build configuration list for PBXNativeTarget "CLLAccelerometerOrientation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3909967B16463BB100B77D23 /* Debug */,
+				3909967C16463BB100B77D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3909964716463BB000B77D23 /* Project object */;
+}
